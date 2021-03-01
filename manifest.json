@@ -1,0 +1,21 @@
+{
+  "name": "Learn English by Aggregate",
+  "version": "1.0",
+  "description": "Learn english by collect words you don't know yet and test yoursefl from them.",
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "tabs",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
