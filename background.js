@@ -11,6 +11,8 @@ chrome.runtime.onInstalled.addListener(function () {
     "contexts": ["selection"],
   });
 
+  console.log('back')
+
 
 
   chrome.contextMenus.onClicked.addListener(() => {
